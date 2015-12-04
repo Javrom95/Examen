@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root minHeight="400.0" minWidth="500.0" prefHeight="400.0" prefWidth="500.0" styleClass="background" stylesheets="@CSS.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.FirstInterfaceController">
+   <children>
+      <Label layoutX="65.0" layoutY="57.0" prefHeight="37.0" prefWidth="90.0" styleClass="view-label" text="View on Github." />
+      <Region prefHeight="400.0" prefWidth="65.0" styleClass="background-sides" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Region layoutX="294.0" prefHeight="400.0" prefWidth="65.0" styleClass="background-sides" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fitHeight="47.0" fitWidth="50.0" layoutX="387.0" layoutY="348.0" onMouseClicked="#Button" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="65.15315246582031">
+         <image>
+            <Image url="@../../Resources/send.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="44.0" layoutX="14.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../../Resources/github_white.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-6.0" prefHeight="515.0" prefWidth="512.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="115.0" layoutX="65.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="146.0">
+               <image>
+                  <Image url="@../../Resources/profilephoto.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="115.0" layoutX="323.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="143.0" AnchorPane.rightAnchor="65.44220733642578" AnchorPane.topAnchor="146.0">
+               <image>
+                  <Image url="@../../Resources/profilephoto.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="115.0" layoutX="194.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="143.0" AnchorPane.topAnchor="146.0">
+               <image>
+                  <Image url="@../../Resources/profilephoto.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text layoutX="157.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="view-text-1" text="Me differently." textAlignment="CENTER" />
+      <Text layoutX="229.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jeremiah L." />
+      <Text layoutX="191.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="view-text-2" text="Programmers can design." textAlignment="JUSTIFY" wrappingWidth="134.291015625" />
+   </children>
+</fx:root>

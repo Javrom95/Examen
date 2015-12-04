@@ -1,0 +1,22 @@
+
+.background {
+	-fx-background-color: #FFFFFF;
+}
+.background-sides{
+	-fx-background-color: #000000;
+	}
+.view-label{
+	-fx-background-color: #000000;
+	-fx-text-fill: white;
+	}
+.view-git{
+	-fx-background-image: url("../../../../../Resources/github_white.png")
+}
+
+.view-text-1{
+	-fx-font-weight: bold;
+	-fx-font-size: 20pt ;
+}
+.view-text-2{
+	-fx-font-style: italic;
+}
